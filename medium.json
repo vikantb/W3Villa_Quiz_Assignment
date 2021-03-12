@@ -1,0 +1,150 @@
+
+{
+    "questions":[
+      {
+         "question": "How many bones are there in the human body?",
+            "option1": "205",
+            "option2": "206",
+            "option3": "207",
+            "option4": "208",
+  
+            "answer":"206"
+       },
+       {
+         "question": "A skulk is the collective noun for which group of animals?",
+            "option1": "Foxes",
+            "option2": "Mice",
+            "option3": "Otters",
+            "option4": "jackal",
+  
+            "answer":"Foxes"
+       },
+       {
+         "question": "How many players are there on an Olympic curling team?",
+            "option1": "4",
+            "option2": "5",
+            "option3": "6",
+            "option4": "7",
+  
+            "answer":"4"
+       },
+       { 
+         "question": "What's the biggest animal in the world?",
+             "option1": "elephant",
+             "option2": "The blue whale",
+             "option3": "human",
+             "option4": "lion",
+  
+             "answer":"The blue whale"
+       },
+       {
+         "question": "Which planet is closest to the sun?",
+            "option1": "Mercury",
+            "option2": "uranus",
+            "option3": "earth",
+            "option4": "venus",
+  
+            "answer":"Mercury"
+       },
+       {
+          "question": "How many elements are there in the periodic table?",
+             "option1": "108 elements",
+             "option2": "149 elements",
+             "option3": "120 elements",
+             "option4": "118 elements",
+   
+             "answer":"118 elements"
+        },
+        {
+          "question": "Which of the following are astronauts not permitted to eat before going into space?",
+             "option1": "Peanut butter",
+             "option2": "Seafood",
+             "option3": "Beans",
+             "option4": "Potato",
+   
+             "answer":"Beans"
+        },
+        {
+          "question": "A snail can sleep for how many years?",
+             "option1": "one",
+             "option2": "two",
+             "option3": "five",
+             "option4": "three",
+   
+             "answer":"Three"
+        },
+        
+        {
+          "question": "Neil Armstrong, Buzz Aldrin and…? Who was the third astronaut involved in the Apollo 11 mission that landed on the moon?",
+             "option1": "William Anders",
+             "option2": "Michael Collins",
+             "option3": "Charles Bolden",
+             "option4": "Herry Smith",
+   
+             "answer":"Michael Collins"
+        },
+        {
+          "question": "Which Ancient Indian literature deals with concepts about origin of universe, death and birth, material and spiritual world?",
+             "option1": "Rig Vedas",
+             "option2": "AtharvaVedas",
+             "option3": "Aryankas",
+             "option4": "Upanishad",
+   
+             "answer":"Upanishad"
+        },
+        {
+          "question": "Which Ancient Indian literature deals with concepts about origin of universe, death and birth, material and spiritual world?",
+             "option1": "Rig Vedas",
+             "option2": "AtharvaVedas",
+             "option3": "Aryankas",
+             "option4": "Upanishad",
+   
+             "answer":"Upanishad"
+        },
+        {
+          "question": "Fastest Shorthand Writer was ?",
+             "option1": "Dr. G. D. Bist",
+             "option2": "J.R.D. Tata",
+             "option3": "J.M. Tagore",
+             "option4": "Khudada Khan",
+   
+             "answer":"Dr. G. D. Bist"
+        },
+        {
+          "question": "Golf player Vijay Singh belongs to which country?",
+             "option1": "USA",
+             "option2": "India",
+             "option3": "UK",
+             "option4": "Fiji",
+   
+             "answer":"Fiji"
+        },
+        {
+          "question": "“One People, One State, One leader” was the policy of",
+             "option1": "Stalin",
+             "option2": "Hitler",
+             "option3": "Lenin",
+             "option4": "Mussolin",
+   
+             "answer":"Hitler"
+        },
+        {
+          "question": "An astronaut in outer space will observe sky as",
+             "option1": "White",
+             "option2": "Blue",
+             "option3": "Black",
+             "option4": "Red",
+   
+             "answer":"Black"
+        },
+        {
+          "question": "Who is known as 'the father of Indian missile technology'?",
+             "option1": " Dr. U.R. Rao",
+             "option2": "Dr. Chidambaram",
+             "option3": "Dr. A.P.J. Abdul Kalam",
+             "option4": "Dr. Homi Bhabha",
+   
+             "answer":"Dr. A.P.J. Abdul Kalam"
+        }
+    ]
+  }

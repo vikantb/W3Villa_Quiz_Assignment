@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"></link>
+    <title>Quiz </title>
+</head>
+<body>
+
+    <!--  input name  and Quiz level -->
+  <div class="container1" id="con1">
+    <h1> W3Villa Technologies Assignment Quiz</h1>
+    <div class="cc">
+    <div class="container">
+        <input type="text" placeholder="Your Name" id="input_name" />
+        <div>
+        <h4> Quiz Level : </h4>
+        <div class="level">
+            <div class="option">
+                <span>Easy</span>
+                <input type="radio" onclick="levelfun(this);" name="level" value="easy">
+            </div>
+            <div class="option">
+                <span>Medium</span>
+                <input type="radio" onclick="levelfun(this);" name="level" value="medium">
+            </div>
+            <div class="option">
+                <span>Hard</span>
+                <input type="radio" onclick="levelfun(this);" name="level" value="hard">
+            </div>
+        </div>
+        </div>
+        <button id="b1" onclick="startQuiz()"> Start Quiz</button>
+    </div>
+    </div> 
+  </div>
+  <!-- name input container end -->
+
+  <!-- question ask container start -->
+  <div class="container2" id="con2">
+      <div class="box">
+
+         <div class="header">
+
+            <div id="name">
+                <!-- name print here -->
+             </div>
+            <div > <span id="time">
+                <!--  timer print here -->
+                   </span>
+            </div>
+         </div>
+
+         <div class="body">
+             <div class="question" id="question">
+                   <!--  question print here -->
+             </div>
+             <div class="question_option">
+                 <!--  question's options -->
+                 <div class="q_option" id="option1" onclick="optionSelected(this)"></div>
+                 <div class="q_option" id="option2" onclick="optionSelected(this)"></div>
+                 <div class="q_option" id="option3" onclick="optionSelected(this)"></div>
+                 <div class="q_option" id="option4" onclick="optionSelected(this)"></div>
+             </div>
+             <button id="next_q" onclick="nextQuestion()"> Next </button>
+         </div> 
+         <!-- body end -->
+
+      </div>
+  </div>
+  <!--question asked container end  -->
+
+  <!--  result container start -->
+      <div class="container3" id="con3">
+         <img src="./result.jpg" alt="">
+
+         <div class="result">
+            <div id="name"> Vikant Bhati <button id="retest" onclick="restartTest()"> Re-Test</button></div> 
+            <div class="final-result"> 
+               Result : <span id="result"> </span>
+            </div>
+         </div>
+
+         <div class="answers">
+            <h2  >Correct Answers given by You : </h2>
+            <div class="questions_display" id="question_display">
+
+                   <!--  correct answers showed here -->
+            </div> 
+         </div>
+      </div>
+  <!-- result container end -->
+
+    <script src="./index.js"></script>
+</body>
+</html>
